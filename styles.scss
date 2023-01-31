@@ -1,0 +1,87 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    background: rgb(21,16,48);
+    background: linear-gradient(45deg, rgba(21,16,48,1) 0%, rgba(107,26,67,1) 100%);
+    margin-left: 150px;
+    margin-right: 75px;
+
+    .nav-bar {
+        height: 20%;
+        display: flex;
+        justify-content: space-between;
+        color: #c5b0ba;
+
+        .left-nav {
+            display: flex;
+            align-items: center;
+
+            p {
+                font-size: 36px;
+            }
+
+            .balls {
+                position: relative;
+                width: 50px;
+
+                .red-balls {
+                    position: absolute;
+                    width: 30px;
+                    height: 30px;
+                    background-color: #f82d2d;
+                    border-radius: 50px;
+                    bottom: 0px;
+                    right: 25px;
+                }
+
+                .blue-balls {
+                    position: absolute;
+                    width: 15px;
+                    height: 15px;
+                    background-color: #2d85ff;
+                    border-radius: 50px;
+                    bottom: -9px;
+                    right: 16px;
+                }
+
+                .yellow-balls {
+                    position: absolute;
+                    width: 13px;
+                    height: 13px;
+                    background-color: #ffea2d;
+                    border-radius: 50px;
+                    bottom: -20px;
+                    right: 27px;
+                }
+
+                .green-balls {
+                    position: absolute;
+                    width: 17px;
+                    height: 17px;
+                    background-color: #1fd200;
+                    border-radius: 50px;
+                    bottom: 20px;
+                    right: 12px;
+                }
+            }
+        }
+
+        .right-nav {
+            display: flex;
+
+            img {
+                width: 36px;
+            }
+        }
+    }
+
+    .content {
+        width: 100%;
+    }
+}

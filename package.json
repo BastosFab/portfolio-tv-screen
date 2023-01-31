@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "sass": "^1.57.1",
+    "vercel": "^28.14.1"
+  }
+}

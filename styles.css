@@ -1,0 +1,78 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  background: rgb(21, 16, 48);
+  background: linear-gradient(45deg, rgb(21, 16, 48) 0%, rgb(107, 26, 67) 100%);
+  margin-left: 150px;
+  margin-right: 75px;
+}
+body .nav-bar {
+  height: 20%;
+  display: flex;
+  justify-content: space-between;
+  color: #c5b0ba;
+}
+body .nav-bar .left-nav {
+  display: flex;
+  align-items: center;
+}
+body .nav-bar .left-nav p {
+  font-size: 36px;
+}
+body .nav-bar .left-nav .balls {
+  position: relative;
+  width: 50px;
+}
+body .nav-bar .left-nav .balls .red-balls {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: #f82d2d;
+  border-radius: 50px;
+  bottom: 0px;
+  right: 25px;
+}
+body .nav-bar .left-nav .balls .blue-balls {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: #2d85ff;
+  border-radius: 50px;
+  bottom: -9px;
+  right: 16px;
+}
+body .nav-bar .left-nav .balls .yellow-balls {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  background-color: #ffea2d;
+  border-radius: 50px;
+  bottom: -20px;
+  right: 27px;
+}
+body .nav-bar .left-nav .balls .green-balls {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  background-color: #1fd200;
+  border-radius: 50px;
+  bottom: 20px;
+  right: 12px;
+}
+body .nav-bar .right-nav {
+  display: flex;
+}
+body .nav-bar .right-nav img {
+  width: 36px;
+}
+body .content {
+  width: 100%;
+}
+
+/*# sourceMappingURL=styles.css.map */
